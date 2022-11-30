@@ -70,10 +70,18 @@
 
     ### Chiffre:
     ![Student](table.png)
-    
-    
-    
-    ..[5]
+
+
+| S.NO. | CLÉ PRIMAIRE | CLÉ ÉTRANGÈRE |
+| ----------- | ----------- | ----------- |
+| 1 | 	Une clé primaire est utilisée pour garantir que les données de la colonne spécifique sont uniques. |Une clé étrangère est une colonne ou un groupe de colonnes dans une table de base de données relationnelle qui fournit un lien entre les données de deux tables. |
+| 2| 	Il identifie de manière unique un enregistrement dans la table de la base de données relationnelle. |Il fait référence au champ d’une table qui est la clé primaire d’une autre table. |
+| 3 | Une seule clé primaire est autorisée dans une table. |Alors que plusieurs clés étrangères sont autorisées dans une table. |
+| 4 | Il s’agit d’une combinaison de contraintes UNIQUE et Not Null. |Il peut contenir des valeurs en double et une table dans une base de données relationnelle. |
+| 5 | Il n’autorise pas les valeurs NULL. |Il peut également contenir des valeurs NULL. |
+| 6 | Sa valeur ne peut pas être supprimée de la table parent. |Sa valeur peut être supprimée de la table enfant. |
+| 7 | Cette contrainte peut être implicitement définie sur les tables temporaires. |Cette contrainte ne peut pas être définie sur les tables temporaires locales ou globales. |
+[5]
 
 
     
@@ -88,7 +96,7 @@
     - #### [3] [Une base de données relationnelle](https://www.oracle.com/fr/database/base-de-donnees-relationnelle-definition.html) Oracle 30/11/2002
 
     - #### [4] [Une base de données relationnelle et non relationnelle la différence entre les deux ](https://www.oracle.com/fr/database/base-donnees-relationnelle-difference-non-relationnelle.html) Oracle 30/11/2002
-    - #### [5] [Clé étrangère et clé primaire ](https://www.oracle.com/fr/database/base-de-donnees-relationnelle-definition.html) Oracle 30/11/2002
+    - #### [5] [Clé étrangère et clé primaire ](https://stacklima.com/difference-entre-la-cle-primaire-et-la-cle-etrangere/) StackLima 30/11/2002
 
 
 
