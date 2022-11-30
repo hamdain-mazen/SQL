@@ -71,7 +71,7 @@
     ### Chiffre:
     ![Student](table.png)
 
-
+Voyons la différence entre clé primaire et clé étrangère :
 | S.NO. | CLÉ PRIMAIRE | CLÉ ÉTRANGÈRE |
 | ----------- | ----------- | ----------- |
 | 1 | 	Une clé primaire est utilisée pour garantir que les données de la colonne spécifique sont uniques. |Une clé étrangère est une colonne ou un groupe de colonnes dans une table de base de données relationnelle qui fournit un lien entre les données de deux tables. |
@@ -85,11 +85,58 @@
 
 [5]
 
+5. ## Les propriétés ACID
+    Dans le domaine de l’informatique, ACID est un acronyme désignant les termes : Atomicité, Cohérence, Isolation et Durabilité.
+
+    Ces quatre principes permettent d’assurer que les transactions de bases de données soient traitées de façon fiable. Pour rappel, le terme de transaction désigne n’importe quelle opération effectuée au sein d’une base de données. Il peut s’agir par exemple de la création d’un nouvel enregistrement ou d’une mise à jour des données.
+
+    Or, le moindre changement apporté à une base de données doit être effectué avec une extrême rigueur. Dans le cas contraire, les données risquent d’être corrompues.
+
+    En appliquant les propriétés ACID à chaque modification effectuée dans une base de données, il est plus facile de maintenir son exactitude et sa fiabilité. À présent, voyons plus en détail les quatre composants de l’approche ACID.
+
+    Atomicité
+    L’atomicité d’une transaction de base de données signifie que tout changement effectué doit être accompli jusqu’au bout. En cas d’interruption, par exemple une perte de connexion au beau milieu de l’opération, le changement doit être annulé et la base de données doit revenir automatiquement à son état antérieur au début de la transaction.
+
+    Ce principe permet d’éviter qu’une transaction soit partiellement terminée, à cause d’une panne ou d’un plantage. Dans le cas contraire, il est impossible de savoir à quel niveau d’avancée le processus a été interrompu. D’importantes complications peuvent s’en suivre.
+
+
+    Cohérence
+    La cohérence, ou consistency en anglais, est un principe permettant de garantir qu’une transaction n’enfreigne les contraintes d’intégrité des données fixées pour une database.
+
+    Ainsi, si la base de données entre dans un état  » illégal  » en enfreignant ces règles, le processus de transaction sera automatiquement abandonné. La base de données retournera automatiquement à son été antérieur.
+
+
+    Isolation
+    Une transaction isolée est considérée comme  » sérialisable « . Cela signifie que les transactions surviennent dans un ordre successif, plutôt que d’être effectuées en une fois.
+
+    Toute écriture ou lecture effectuée dans la base de données n’impacte pas l’écriture ou la lecture d’autres transactions survenant sur la même database. Un ordre global est créé, et chaque transaction s’ajoute à une file d’attente. Ce n’est que lorsqu’une transaction est totalement complète que les autres débutent.
+
+    Cela ne veut pas dire que deux opérations ne peuvent survenir simultanément. Plusieurs transactions peuvent être effectuées en même temps, à condition qu’elles ne puissent pas s’impacter entre elles.
+
+    Bien évidemment, cette méthode peut avoir des conséquences sur la vitesse des transactions. De nombreuses opérations devront attendre avant de pouvoir commencer.
+
+    Toutefois, il s’agit d’un sacrifice permettant d’assurer la sécurité et l’intégrité des données. Pour réaliser cette isolation, il est possible d’opter pour un schéma de transaction  » optimiste  » ou  » pessimiste « .
+
+    Dans le cas d’un schéma de transaction optimiste, les autres transactions seront effectuées sans lire ou écrire au même emplacement. Si deux transactions se confrontent, elles seront automatiquement abandonnées et réessayées.
+
+    Un schéma de transaction pessimiste laisse moins de liberté à la base de données. Les ressources seront limitées, partant du principe que les transactions s’impacteront entre elles. Ceci réduit le nombre d’abandons et d’essais, mais force plus souvent les transactions à patienter dans la file d’attente.
+
+    Durabilité
+    La durabilité est le quatrième principe de l’approche ACID. Il permet d’assurer que tout changement apporté à la base de données soit permanent, même en cas de panne du système.
+
+    Ceci permet d’éviter que les données soient corrompues ou altérées par une panne de service, un crash ou tout autre problème technique. Pour permettre cette durabilité, on utilise des  » changelogs «  pris pour références chaque fois que la base de données est redémarrée.
+
+    ACID : quels sont les avantages ?
+    En se conformant aux quatre principes de l’approche ACID, il est possible d’assurer la sécurité et l’intégrité des données au sein d’une base de données. De cette manière, elles peuvent apporter toute leur valeur à l’entreprise.
+
+    Dans le cas contraire, une base de données contenant des données corrompues peut entraîner de graves problèmes dont la résolution sera coûteuse. C’est particulièrement le cas pour les nombreuses entreprises  » data-driven  » exploitant leurs données au quotidien pour prendre des décisions ou orienter leur stratégie.[6]
+
+
 
     
 
 
-3. ## Bibliographie 
+9. ## Bibliographie 
 	- #### [1] [Système de gestion de base de données](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_base_de_donn%C3%A9es) Wikipedia 29/11/2022
 
     - #### [2] [Les critères de mesure de qualité des données](https://variances.eu/?p=1864#:~:text=Ces%20six%20crit%C3%A8res%20sont%20la,l'intelligibilit%C3%A9%20et%20la%20coh%C3%A9rence) Variances Education 30/11/2022
@@ -99,6 +146,8 @@
 
     - #### [4] [Une base de données relationnelle et non relationnelle la différence entre les deux ](https://www.oracle.com/fr/database/base-donnees-relationnelle-difference-non-relationnelle.html) Oracle 30/11/2002
     - #### [5] [Clé étrangère et clé primaire ](https://stacklima.com/difference-entre-la-cle-primaire-et-la-cle-etrangere/) StackLima 30/11/2002
+
+    - #### [6] [Les propriétés ACID ](https://datascientest.com/acid#:~:text=Dans%20le%20domaine%20de%20l,soient%20trait%C3%A9es%20de%20fa%C3%A7on%20fiable.) DataScientist 30/11/2002
 
 
 
