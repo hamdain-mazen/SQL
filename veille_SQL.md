@@ -132,11 +132,24 @@ Voyons la différence entre clé primaire et clé étrangère :
     Dans le cas contraire, une base de données contenant des données corrompues peut entraîner de graves problèmes dont la résolution sera coûteuse. C’est particulièrement le cas pour les nombreuses entreprises  » data-driven  » exploitant leurs données au quotidien pour prendre des décisions ou orienter leur stratégie.[6]
 
 
+6. ## Les méthodes Merise et UML.   
 
+7. ## SQL
+    SQL est un langage de programmation permettant de manipuler les bases de données. Découvrez tout ce que vous devez savoir à son sujet : fonctionnement, cas d'usage, méthodes d'apprentissage...
+    SQL ou  » Structured Query Language  » est un langage de programmation permettant de manipuler les données et les systèmes de bases de données relationnelles. Ce langage permet principalement de communiquer avec les bases de données afin de gérer les données qu’elles contiennent.
+
+    Il permet notamment de stocker, de manipuler et de retrouver ces données. Il est aussi possible d’effectuer des requêtes, de mettre à jour les données, de les réorganiser, ou encore de créer et de modifier le schéma et la structure d’un système de base de données et de contrôler l’accès à ses données.
+
+    L'histoire de SQL
+    L’histoire de SQL commence en 1969, lorsque le chercheur d’IBM Edgar F.Codd définit le modèle de base de données relationnelle. Ce modèle repose sur l’association de  » clés  » avec diverses données. Par exemple, un nom d’utilisateur peut être associé à un vrai nom et à un numéro de téléphone.
+
+    Quelques années plus tard, IBM crée un langage pour les systèmes de gestion de bases de données relationnelles en se basant sur les travaux de Codd. Ce langage s’appellera d’abord SEQUEL, pour  » Structured English Query Language « . Après plusieurs implémentations et révisions, il s’appellera finalement SQL.
+
+    Les tests débutent en 1978, puis IBM commence à développer des produits commerciaux comme SQL/DS en 1981 et DB2 en 1983. D’autres vendeurs suivront, comme Sybase, Ingres, ou Oracle qui lance son premier produit en 1979.[8]
     
 
 
-9. ## Bibliographie 
+8. ## Bibliographie 
 	- #### [1] [Système de gestion de base de données](https://fr.wikipedia.org/wiki/Syst%C3%A8me_de_gestion_de_base_de_donn%C3%A9es) Wikipedia 29/11/2022
 
     - #### [2] [Les critères de mesure de qualité des données](https://variances.eu/?p=1864#:~:text=Ces%20six%20crit%C3%A8res%20sont%20la,l'intelligibilit%C3%A9%20et%20la%20coh%C3%A9rence) Variances Education 30/11/2022
@@ -148,6 +161,7 @@ Voyons la différence entre clé primaire et clé étrangère :
     - #### [5] [Clé étrangère et clé primaire ](https://stacklima.com/difference-entre-la-cle-primaire-et-la-cle-etrangere/) StackLima 30/11/2002
 
     - #### [6] [Les propriétés ACID ](https://datascientest.com/acid#:~:text=Dans%20le%20domaine%20de%20l,soient%20trait%C3%A9es%20de%20fa%C3%A7on%20fiable.) DataScientist 30/11/2002
+    - #### [8] [SQL ](https://datascientest.com/sql-tout-savoir) DataScientist 30/11/2002
 
 
 
