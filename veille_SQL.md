@@ -69,7 +69,7 @@
     STUD_NO dans STUDENT_COURSE est une clé étrangère à STUD_NO dans la relation STUDENT.
 
     ### Chiffre:
-    ![Student](C:\Users\mznha\desktop\Laplateforme\SQL\table.png)
+    ![Student](table.png)
     
     
     
