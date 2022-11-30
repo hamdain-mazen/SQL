@@ -81,6 +81,8 @@
 | 5 | Il n’autorise pas les valeurs NULL. |Il peut également contenir des valeurs NULL. |
 | 6 | Sa valeur ne peut pas être supprimée de la table parent. |Sa valeur peut être supprimée de la table enfant. |
 | 7 | Cette contrainte peut être implicitement définie sur les tables temporaires. |Cette contrainte ne peut pas être définie sur les tables temporaires locales ou globales. |
+
+
 [5]
 
 
