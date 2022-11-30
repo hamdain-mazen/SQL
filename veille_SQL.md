@@ -50,7 +50,7 @@
     - Bases de données en cache : Les données sont stockées sur le disque ou le cache. Par exemple : Memcache
     - Bases de données graphiques : Elle est composée de nœuds et créé des relations en utilisant des arêtes. Par exemple. Oracle NoSQL, Neo4J.
 
-    ## Finalement, la différence qui existe entre une base de données relationnelle et une base de données non relationnelle
+    Finalement, la différence qui existe entre une base de données relationnelle et une base de données non relationnelle
     Est la façon de stocker. L’une stocke les données dans des tables tandis que l’autre les stockent au format clé-valeur de manière à stocker davantage en termes de quantité. Si le NoSQL répond à la problématique actuelle du Big Data, il ne replace pas pour autant la base de données relationnel mais plutôt la complète.[4]
 
 
