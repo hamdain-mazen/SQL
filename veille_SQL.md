@@ -135,8 +135,9 @@ Voyons la différence entre clé primaire et clé étrangère :
 6. ## Les méthodes Merise et UML.   
 
 7. ## SQL
-    SQL est un langage de programmation permettant de manipuler les bases de données. Découvrez tout ce que vous devez savoir à son sujet : fonctionnement, cas d'usage, méthodes d'apprentissage...
-    SQL ou  » Structured Query Language  » est un langage de programmation permettant de manipuler les données et les systèmes de bases de données relationnelles. Ce langage permet principalement de communiquer avec les bases de données afin de gérer les données qu’elles contiennent.
+    SQL est un langage de programmation permettant de manipuler les bases de données.
+
+    SQL ou Structured Query Language est un langage de programmation permettant de manipuler les données et les systèmes de bases de données relationnelles. Ce langage permet principalement de communiquer avec les bases de données afin de gérer les données qu’elles contiennent.
 
     Il permet notamment de stocker, de manipuler et de retrouver ces données. Il est aussi possible d’effectuer des requêtes, de mettre à jour les données, de les réorganiser, ou encore de créer et de modifier le schéma et la structure d’un système de base de données et de contrôler l’accès à ses données.
 
