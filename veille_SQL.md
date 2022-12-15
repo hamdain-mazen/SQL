@@ -132,7 +132,15 @@ Voyons la différence entre clé primaire et clé étrangère :
     Dans le cas contraire, une base de données contenant des données corrompues peut entraîner de graves problèmes dont la résolution sera coûteuse. C’est particulièrement le cas pour les nombreuses entreprises  » data-driven  » exploitant leurs données au quotidien pour prendre des décisions ou orienter leur stratégie.[6]
 
 
-6. ## Les méthodes Merise et UML.   
+6. ## Les méthodes Merise et UML. 
+
+    Merise est une méthode d'analyse, de conception et de gestion de projet informatique. Cette méthode reste adaptée pour la gestion des projets internes aux organisations, se limitant à un domaine précis.
+
+    UML, en français, le Langage de Modélisation Unifié, de l'anglais Unified Modeling Language (UML), est un language de modélisation graphique à base de pictogrammes conçu comme une méthode normalisée de visualisation dans les domaines du développement logiciel et en conception orientée objet.
+
+    L'UML est une synthèse de langages de modélisation objet antérieurs.
+
+    Outre des différences évidentes de natures, buts et d'utilisations (une méthode d'une part et un langage d'autre part), l'aspect graphique de l'ULM est une caractéristique qui le distingue de Merise.
 
 7. ## SQL
     SQL est un langage de programmation permettant de manipuler les bases de données.
